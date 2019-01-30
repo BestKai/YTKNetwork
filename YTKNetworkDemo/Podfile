@@ -1,9 +1,10 @@
+platform :ios, '9.0'
+
 target 'YTKNetworkDemo' do
-    pod 'YTKNetwork', :path => '../'
-    pod 'AFNetworking', '~> 3.2.1'
+    pod 'YTKNetwork-YKUpdate', :path => '../'
 end
 
 target 'YTKNetworkDemoTests' do
-    pod 'YTKNetwork', :path => '../'
+    pod 'YTKNetwork-YKUpdate', :path => '../'
 end
 
